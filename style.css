@@ -1,0 +1,110 @@
+*{
+    margin: 0; padding:0;
+}
+.header{
+    background-image:url(./hero__x15fcac9fw2q_small.jpg);
+    width: 100%; height: 155vh;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    width:100%; height: 6vh;
+    background-color: black;
+    color: white;
+    display: flex; justify-content: space-around;
+    align-items: center;
+    opacity: 0.7;
+}
+a{ 
+    text-decoration: none;
+    color: white;
+    width: 12.5%;
+}
+a:hover{
+color:darkgrey;
+}
+
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-box h1{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-box p{
+    margin: 10px 0px 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nacho{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+
+}
+.nacho:hover{
+    border: 1px solid  white;
+    background: white;
+    transition: 1s;
+    color: black;
+}
+
+
+@media(max-width: 700px){
+    .text-box h1{
+        font-size: 20px;}
+
+
+.nav-links ul li{
+    display: block;
+}
+
+.nav-links{
+    position: absolute;
+    background: black;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;}
+
+}
+
+.image{
+    max-width: 70%;
+   float: right;
+   margin-left: 30px;
+  
+}
+.jano{
+    font-size: 20px;
+    text-align: left;
+}
+.images{
+    max-width: 70%;
+   float: left;
+   margin-right: 30px;
+  
+}
+.janwar{
+    font-size: 20px;
+    text-align: left;
+}
